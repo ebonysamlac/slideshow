@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="slide.css" rel="stylesheet" type="text/css" />
+  <script src="slide.js"></script>
+  <title>Slideshow</title>
+</head>
+
+<body>
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="forSlides fade">
+      <div></div>
+      <img src="firstimage.jpg" style="width:100%">
+      <div class="text">First Display</div>
+    </div>
+  
+    <div class="forSlides fade">
+      <div></div>
+      <img src="secondimage.jpg" style="width:100%">
+      <div class="text">Second Display</div>
+    </div>
+  
+    <div class="forSlides fade">
+      <div></div>
+      <img src="thirdimage.jpg" style="width:100%">
+      <div class="text">Third Display</div>
+    </div>
+    <div class="forSlides fade">
+      <div></div>
+      <img src="forthimage.jpg" style="width:100%">
+      <div class="text">Fourth Display</div>
+    </div>
+  
+    <div class="forSlides fade">
+      <div></div>
+      <img src="fifthimage.jpg" style="width:100%">
+      <div class="text">Fifth Display</div>
+    </div>
+  
+    <div class="forSlides fade">
+      <div></div>
+      <img src="sixthimage.jpg" style="width:100%">
+      <div class="text">Sixth Display</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- For the small circles -->
+  <div style="text-align:center">
+    <span class="smallcircle" onclick="currentSlide(1)"></span>
+    <span class="smallcircle" onclick="currentSlide(2)"></span>
+    <span class="smallcircle" onclick="currentSlide(3)"></span>
+    <span class="smallcircle" onclick="currentSlide(4)"></span>
+    <span class="smallcircle" onclick="currentSlide(5)"></span>
+    <span class="smallcircle" onclick="currentSlide(6)"></span>
+  </div>
+</body>
+
+</html>
